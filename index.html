@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input type</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Input types</legend>
+        <form>
+            <h2>My personal data</h2>
+            <input type="text"  name="firstname" placeholder="First name...">
+            <input type="text" name="lastname" placeholder="Last name....">
+            <input type="text" name="email" placeholder="E-mail....">
+            
+            <label for="birth">Date of Birth</label>
+            <input type="date" name="" id="">
+            
+            <label>Gender :</label>
+            <input type="radio" name="gender" id="f">
+            <label for="f">Female</label>
+            <input type="radio" name="gender" id="m">
+            <label for="m">Male</label>
+            
+            <h2>PNC school</h2>
+            <select name="class" id="">
+                <option value="">Select a class</option>
+                <option value="">2022 A</option>
+                <option value="">2022 B</option>
+                <option value="">2022 C</option>
+            </select>
+
+            <div class="subjects">
+                <h3>Choose your favourite subjects</h3>
+                <div>
+                    <input type="checkbox" id="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="html">
+                    <label for="html">HTML</label>
+                </div>
+            </div>
+            <input type="submit">  
+        </form>
+    </fieldset>
+</body>
+</html>
